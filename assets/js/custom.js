@@ -8,6 +8,7 @@ $(document).ready(function() {
     //
     //	/*=========== TABLE OF CONTENTS ===========
     //
+    //		0. Current Year
     //		1. Menu js
     //		2. AOS Animation js
     //		3. Parallax 
@@ -18,6 +19,9 @@ $(document).ready(function() {
     //		
     //
     //	===========================================*/
+
+    // 0. Current Year 
+      document.getElementById("year").textContent = new Date().getFullYear();
 
     //	 	1. Menu js
     $('.toggle_bar').on('click', function() {
